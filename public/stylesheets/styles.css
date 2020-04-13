@@ -362,3 +362,67 @@ body {
 .auth .register {
   display: none;
 }
+div.success, p.success, div.error, p.error {
+  background-color: rgba(135, 191, 10, 0.5);
+  border: 1px solid ;
+  font-size: 0.8em;
+  padding: 7.5px;
+  color: #87bf0a;
+  border-radius: 2px;
+} 
+div.error, p.error {
+  background-color: rgba(232, 44, 12, 0.5);
+  border-color: #e82c0c;
+  color: #e82c0c;
+}
+
+input.error, textarea.error, div.error {
+  border-color: #e82c0c !important;
+  color: #e82c0c;
+}
+input.error::placeholder, textarea.error::placeholder {
+  color: rgba(232, 44, 12, 0.2);
+}
+
+.add-post {
+  margin-bottom: 15px;
+  padding: 15px;
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  border-radius: 2px;
+}
+.add-post form .buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+.add-post form .buttons button{
+  margin-left: 30px;
+}
+.add-post form #post-body {
+  min-height: 200px !important;
+  background-color: #fff !important;
+  border: 1px solid #e8e8e8;
+  padding: 8px 10px;
+  outline: none;
+}
+
+.main .container .content .pagination {
+  font-size: 1.15em;
+}
+.main .container .content .pagination .old {
+  float: right;
+}
+.main .container .content .pagination .new {
+  float: left;
+}
+a, .link, .a {
+  color: #08aef1;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover, .link:hover, .a:hover {
+  text-decoration: underline;
+}
+
